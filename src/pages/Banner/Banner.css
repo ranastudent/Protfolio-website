@@ -1,0 +1,44 @@
+@keyframes fadeInOut {
+      0%, 100% { opacity: 0; }
+      50% { opacity: 1; }
+    }
+    
+    @keyframes slideInOut {
+      0% {
+        transform: translateX(100%);
+      }
+      50% {
+        transform: translateX(0);
+      }
+      100% {
+        transform: translateX(100%);
+      }
+    }
+    
+    .text-animation {
+      animation: fadeInOut 6s infinite;
+    }
+    
+    .image-animation {
+      animation: slideInOut 4s infinite;
+    }
+    
+    .hero-content {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    
+    .hero-content img {
+      flex: 1;
+    }
+    
+    .hero-content div {
+      flex: 1;
+    }
+    
+    .btn {
+      display: block;
+      margin: 0 auto;
+    }
+    
