@@ -26,7 +26,7 @@ const Banner = () => {
         <div className="flex flex-col items-center lg:items-start lg:w-1/2">
           <h1 className="text-5xl font-bold text-center lg:text-left">
             Hi I am Reduanul Islam <br />
-            <span className="text-animation">{texts[textIndex]}</span>
+            <span className="text-animation text-orange-300">{texts[textIndex]}</span>
           </h1>
           <p className="py-6 text-center lg:text-left">
             Welcome to my portfolio, where I demonstrate my technical skills, problem-solving mindset, teamwork abilities, love for learning, attention to detail, and strong work commitment. With a passion for technology, I thrive in challenging environments and excel at finding innovative solutions. Collaboration is crucial to me. I continuously expand my knowledge, staying updated with industry trends. Meticulousness is my forte. Above all, my unwavering commitment drives me to surpass expectations, delivering exceptional outcomes. Explore my portfolio to witness the manifestation of my expertise, collaboration, and dedication to technology-driven solutions.
