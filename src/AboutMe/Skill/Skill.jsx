@@ -15,8 +15,8 @@ const Skill = () => {
     { category: 'Comfortable', items: [
       { name: 'JavaScript', level: '71%' },
       { name: 'JWT (Json Web Token)', level: '68%' },
-      { name: 'RestFul APIs', level: 'Familiar' },
-      { name: 'Node Js', level: '27%' }
+      { name: 'RestFul APIs', level: '70%' },
+      { name: 'Node Js', level: '77%' }
     ]},
     { category: 'Tools', items: [
       { name: 'Figma', level: '84%' },
@@ -31,7 +31,7 @@ const Skill = () => {
   ];
 
   return (
-    <div className="p-4">
+    <div id="skills" className="p-4">
       <h2 className="text-center text-3xl font-bold mb-8 underline">My Skills</h2>
       {skills.map((skillCategory, index) => (
         <div key={index} className="mb-8">

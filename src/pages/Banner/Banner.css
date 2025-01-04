@@ -20,7 +20,7 @@
     }
     
     .image-animation {
-      animation: slideInOut 4s infinite;
+      animation: slideInOut 4s ;
     }
     
     .hero-content {
