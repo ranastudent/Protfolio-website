@@ -27,7 +27,7 @@ const ProjectTab = () => {
                               <Frontend></Frontend>
                         </div>
 
-                        <input type="radio" name="my_tabs_2" role="tab" className="tab text-red-600 text-2xl" aria-label="Tab 3" />
+                        <input type="radio" name="my_tabs_2" role="tab" className="tab text-red-600 text-2xl" aria-label="Web Design" />
                         <div role="Web design(HTML , CSS, Tailwind)" className="tab-content bg-base-100 border-base-300 rounded-box p-6 w-full text-left">
                               <WebDesign></WebDesign>
                         </div>
