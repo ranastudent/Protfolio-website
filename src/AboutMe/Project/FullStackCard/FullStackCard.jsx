@@ -5,7 +5,7 @@ const FullStackCard = ({ data }) => {
   return (
     <div className="flex flex-wrap justify-center">
       {data.map((item) => (
-        <div key={item.id} className="flex flex-col md:flex-row bg-white shadow-lg rounded-lg overflow-hidden m-4 w-full md:w-2/3">
+        <div key={item.id} className="flex flex-col md:flex-row bg-white shadow-lg rounded-lg overflow-x-auto m-4 w-full md:w-2/3">
           <div className="md:w-1/3">
             <img src={item.image} alt={item.heading} className="w-full h-full object-cover" />
           </div>

@@ -31,7 +31,7 @@ const FullStack = () => {
                   "image": "https://i.ibb.co.com/HNGCcmL/B10A10.png",
                   "heading": "Fund Rise And Donate Page",
                   "title": "Crowd Funding",
-                  "websiteLiveLink": "https://b10-a10-auth-ce68e.web.app/home",
+                  "websiteLiveLink": "https://b10-a10-auth-ce68e.web.app",
                   "clientSide": " https://github.com/ranastudent/B10-A10-Client-Site",
                   "serverSide": "https://github.com/programming-hero-web-course2/b10-a10-server-side-ranastudent",
                   "description": "Experienced Full Stack Developer with expertise in the MERN stack (MongoDB, Express.js, React, Node.js). Passionate about building scalable web applications and working with cutting-edge technologies. This is Simple Funding Rise And Fund Giving WebSite ",
