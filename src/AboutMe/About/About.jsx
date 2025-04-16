@@ -1,9 +1,9 @@
 import React from 'react';
 import Skill from '../Skill/Skill';
-
 import { Outlet } from 'react-router-dom';
 import PersonalInfo from '../PersonalInfo/PersonalInfo';
 import ContactMe from '../ContactMe/ContactMe';
+
 
 const About = () => {
       return (
